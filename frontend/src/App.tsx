@@ -27,6 +27,8 @@ const App = () => (
             <Route path="report" element={<Report />} />
             <Route path="support" element={<div className="p-6">Support page coming soon...</div>} />
             <Route path="settings" element={<Settings />} />
+            <Route path="apikey" element={<ApiKey />} />
+            <Route path="api-key" element={<ApiKey />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
